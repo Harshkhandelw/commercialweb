@@ -1,0 +1,82 @@
+{
+  "Users": [
+    {
+      "id": "1",
+      "Name": "jayesh",
+      "Email": "jayeshojha2002@gmail.com",
+      "Pass": "1234",
+      "cart": [
+        {
+          "id": "1",
+          "title": "Nordic Chair",
+          "price": "$50.00",
+          "img": "images/product-1.png",
+          "qty": 8,
+          "totalPrice": "$400"
+        },
+        {
+          "id": "2",
+          "title": "Kruzo Aero Chair",
+          "price": "$78.00",
+          "img": "images/product-2.png",
+          "qty": 5,
+          "totalPrice": "$390"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "Name": "garvit",
+      "Email": "garvitgupta21@gmail.com",
+      "Pass": "1234",
+      "cart": [
+        {
+          "id": "2",
+          "title": "Kruzo Aero Chair",
+          "price": "$78.00",
+          "img": "images/product-2.png",
+          "qty": 0,
+          "totalPrice": "$0"
+        }
+      ]
+    }
+  ],
+  "Products": [
+    {
+      "id": "1",
+      "title": "Nordic Chair",
+      "price": "$50.00",
+      "img": "images/product-1.png"
+    },
+    {
+      "id": "2",
+      "title": "Kruzo Aero Chair",
+      "price": "$78.00",
+      "img": "images/product-2.png"
+    },
+    {
+      "id": "3",
+      "title": "Ergonomic Chair",
+      "price": "$43.00",
+      "img": "images/product-3.png"
+    },
+    {
+      "id": "4",
+      "title": "Sofa with ball",
+      "price": "$150.00",
+      "img": "images/product-4.png"
+    },
+    {
+      "id": "5",
+      "title": "Single sofa",
+      "price": "$49.00",
+      "img": "images/product-5.png"
+    },
+    {
+      "id": "6",
+      "title": "Puffy Sofa",
+      "price": "$37.00",
+      "img": "images/product-6.png"
+    }
+  ]
+}

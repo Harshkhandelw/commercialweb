@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.p {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+}
+
+.p:hover {
+    cursor: pointer;
+}
+
+.L-body {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/index-furniture-65f07553eef2f.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login {
+    width: 350px;
+    padding: 30px 0px;
+    background: rgba(22, 21, 21, 0.3);
+    /* White with 30% opacity */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.Login-1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 350px;
+    padding: 30px 0px;
+    background: rgba(10, 51, 24, 0.982);
+    /* White with 30% opacity */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.Login-box {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Login-filed {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.Login-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.Text {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.Btn {
+    width: 90%;
+    padding: 10px 0;
+    border-radius: 7px;
+    background-color: beige;
+}
+
+input {
+    padding: 4px;
+}
+
+.Reg {
+    color: darksalmon;
+    font-weight: 700;
+}
+
+.Reg:hover {
+    cursor: pointer;
+}
+
+@media (min-width : 1300px) {
+    .Login {
+        width: 425px;
+    }
+
+    .Login-box {
+        width: 300px;
+    }
+}
